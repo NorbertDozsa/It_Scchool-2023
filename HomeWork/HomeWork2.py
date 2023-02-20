@@ -16,7 +16,7 @@
 # cercului. Aceasta se va afisa insotita de mesajul "Aria cercului = <valoare>".
 
 # r = int(input("Raza="))
-# pi = 3.14
+# PI = 3.14
 # perimetrul_cercului = 2 * pi * r 
 
 # print(perimetrul_cercului)
