@@ -17,14 +17,24 @@ matrix = [
 
 medii = [sum(x) / len(x) for x in zip(matrix[0][1])]
 
-print(medii)
+# print(medii)
+
+medii_nume = []
+
+
+for i in matrix:
+    medii_nume.append(i[0])
+    medii_nume.append(sum(i[1])/len(i[1]))
+
+   
+# print(medii_nume)
 
 
 
 
-# print(len(medie))
-# for i in range(2,)    
-# medie.sort
+
+
+
 
 # for i in matrix:
 #     print(i[0], "medie", sum(i[1])/len(i[1]))
