@@ -15,7 +15,7 @@ matrix = [
 # medie_ioana = sum(matrix[3][1]) / len(matrix[3][1])
 # medie_matei = sum(matrix[4][1]) / len(matrix[4][1])
 
-medii = [sum(x) / len(x) for x in zip(matrix[0][1])]
+# medii = [sum(x) / len(x) for x in zip(matrix[0][1])]
 
 # print(medii)
 
