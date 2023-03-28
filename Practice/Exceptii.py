@@ -17,7 +17,7 @@
 
 
 
-x = int(input("Introduceti un numar: "))
+x = int(input("Introduceti un numar intreg: "))
 try:
     x**2
 except ValueError:
