@@ -1,17 +1,19 @@
 import random
 
 numbers = []
-abc_lower = []
-abc_upper = []
 symbols = []
+abc = []
 
 
 for n in range(48, 58):
     numbers.append(chr(n))
+
 for a in range(65, 91):
-    abc_upper.append(chr(a))
+    abc.append(chr(a))
+
 for b in range(97, 123):
-    abc_lower.append(chr(b))
+    abc.append(chr(b))
+
 for x in range(33, 48):
     symbols.append(chr(x))
 
@@ -60,16 +62,15 @@ def get_user_use_symbols(*use_symbols: bool):
 
 def get_password():
     """Generates Passwords for Users."""
-    pw_length = get_pw_length()
-    use_digits = get_user_use_digit()
-    use_symbols = get_user_use_symbols()
+    user_length = get_pw_length()
+    user_digits = get_user_use_digit()
+    user_symbols = get_user_use_symbols()
     password = []
-    while len(password) < pw_length:
-        password.append(random.choice(abc_lower))
-        password.append(random.choice(abc_upper))       
-        if use_digits == True:
+    while len(password) < user_length:
+        password.append(random.choice(abc))      
+        if user_digits == True:
             password.append(random.choice(numbers))
-        if use_symbols == True:
+        if user_symbols == True:
             password.append(random.choice(symbols))
     
     pw = "".join(password)
