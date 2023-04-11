@@ -5,20 +5,22 @@ symbols = []
 abc = []
 
 
-for n in range(48, 58):
-    numbers.append(chr(n))
+# for n in range(48, 58):
+#     numbers.append(chr(n))
 
-for a in range(65, 91):
-    abc.append(chr(a))
+# for a in range(65, 91):
+#     abc.append(chr(a))
 
-for b in range(97, 123):
-    abc.append(chr(b))
+# for b in range(97, 123):
+#     abc.append(chr(b))
 
-for x in range(33, 48):
-    symbols.append(chr(x))
+# for x in range(33, 48):
+#     symbols.append(chr(x))
 
 
-def get_pw_length(*password_length: int):
+# intr-o functie, list comprehension
+
+def get_pw_length():
     """Retrieves Password's Length."""
 
     while True:
@@ -29,7 +31,7 @@ def get_pw_length(*password_length: int):
             print("Please answer with a number!")
     return password_length
 
-def get_user_use_digit(*use_digits: bool):
+def get_user_use_digit():
     """Retrieves if the user wants to use digits in his password or not."""
     
     while True:
@@ -44,7 +46,7 @@ def get_user_use_digit(*use_digits: bool):
         except ValueError:
                 print("Please answer with yes or no!")
               
-def get_user_use_symbols(*use_symbols: bool):
+def get_user_use_symbols():
     """Retrieves if the user wants to use symbols in his password or not."""
   
     while True:
@@ -67,14 +69,13 @@ def get_password():
     user_symbols = get_user_use_symbols()
     password = []
     while len(password) < user_length:
-        password.append(random.choice(abc))      
+        # password.append(random.choice(abc)) + un if     
         if user_digits == True:
             password.append(random.choice(numbers))
         if user_symbols == True:
             password.append(random.choice(symbols))
     
-    pw = "".join(password)
-    print(f"Your password is: {pw}")
+    print(f"Your password is: {''.join(password)}")
 
 
 get_password()
