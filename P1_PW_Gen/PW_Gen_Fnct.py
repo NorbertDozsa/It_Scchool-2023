@@ -1,24 +1,25 @@
 import random
 
-numbers = []
-symbols = []
-abc = []
 
+def get_abc():
+    abc = []
+    for a in range(65, 91):
+        abc.append(chr(a))
+    for b in range(97, 123):
+        abc.append(chr(b))
+    return abc
 
-# for n in range(48, 58):
-#     numbers.append(chr(n))
+def get_numbers():
+    numbers = []
+    for n in range(48, 58):
+        numbers.append(chr(n))    
+    return numbers    
 
-# for a in range(65, 91):
-#     abc.append(chr(a))
-
-# for b in range(97, 123):
-#     abc.append(chr(b))
-
-# for x in range(33, 48):
-#     symbols.append(chr(x))
-
-
-# intr-o functie, list comprehension
+def get_symbols():
+    symbols = []
+    for x in range(33, 48):
+        symbols.append(chr(x))
+    return symbols    
 
 def get_pw_length():
     """Retrieves Password's Length."""
@@ -61,7 +62,6 @@ def get_user_use_symbols():
         except ValueError:
                 print("Please answer with yes or no!")
 
-
 def get_password():
     """Generates Passwords for Users."""
     user_length = get_pw_length()
@@ -69,28 +69,14 @@ def get_password():
     user_symbols = get_user_use_symbols()
     password = []
     while len(password) < user_length:
-        # password.append(random.choice(abc)) + un if     
+        password.append(random.choice(get_abc()))
         if user_digits == True:
-            password.append(random.choice(numbers))
+            password.append(random.choice(get_numbers()))
         if user_symbols == True:
-            password.append(random.choice(symbols))
+            password.append(random.choice(get_symbols()))
     
     print(f"Your password is: {''.join(password)}")
-
 
 get_password()
 
 
-# def get_password():
-#     """Generates Passwords for Users."""
-#     pw_length = get_pw_length()50
-#     password = []
-#     while len(password) < pw_length:
-#         password.append(list(set(abc_lower))[0+1])
-#         password.append(list(set(abc_upper))[0+1])       
-#     if get_user_use_digit() == True:
-#             password.append(list(set(numbers))[0+1])
-#     if get_user_use_symbols() == True:
-#             password.append(list(set(symbols))[0])
-    
-#     return "".join(password)
