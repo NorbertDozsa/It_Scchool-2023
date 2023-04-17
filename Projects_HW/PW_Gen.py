@@ -77,12 +77,11 @@ def get_password():
             password.append(random.choice(get_numbers()))
         if user_symbols == True:
             password.append(random.choice(get_symbols()))
-    previous_value = None
-    new_pw = []
-    for i in password:
-        if i != previous_value:
-            new_pw.append(i)
-            previous_value = i
+    # previous_value = None
+    # for i in password:
+    #     if i != previous_value:
+    #         password.append(i)
+    #         previous_value = i
 
     print(f"Your password is: {''.join(password)}")
 
