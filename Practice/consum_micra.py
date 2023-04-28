@@ -10,4 +10,4 @@ def car_fuel_money(km):
   
 
 
-car_fuel_money(360)
+car_fuel_money(500)
