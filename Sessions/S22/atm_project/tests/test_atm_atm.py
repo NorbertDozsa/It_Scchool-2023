@@ -15,5 +15,3 @@ class TestConstructor(TestCase):
     def test_fill(self):
 
         atm = ATM()
-
-        self.assert
