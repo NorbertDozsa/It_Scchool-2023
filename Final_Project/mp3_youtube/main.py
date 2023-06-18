@@ -4,6 +4,7 @@ from pytube import YouTube
 from pytube.exceptions import PytubeError
 from pathlib import Path
 from starlette.responses import FileResponse
+import logging
 import re
 import uuid
 import os
@@ -13,19 +14,29 @@ ROOT = Path(__file__).parent
 app = FastAPI()
 conversion_status = {}
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s]: %(message)s",
+    handlers=[
+        logging.StreamHandler(),
+    ]
+)
+logger = logging.getLogger(__name__)
+
 
 @app.get("/convert/{url}")
 async def get_url_id(url: str):
     """Returns a converted ID for the given URL"""
 
     try:
+        # Unique task id for every url
         task_id = str(uuid.uuid4())
 
+        # Check if the url is correct
         if not re.match(r'^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+$', url):
             raise HTTPException(status_code=404, detail="Error: URL not found")
         
         video_id = None
-
         if "/watch?v=" in url:
             video_id = url.split("/watch?v=")[1][:11]
         elif "/v/" in url:
@@ -35,13 +46,17 @@ async def get_url_id(url: str):
         if not video_id:
             raise HTTPException(status_code=404, detail="Error: Unable to extract video ID from link")
         
+        # Update conversion status
         if video_id in conversion_status:
             status = conversion_status[video_id]["status"]
             if status == "completed":
-                return {"status": status, "message": "Conversion already completed"}
+                return {"status": status,
+                        "message": "Conversion already completed"}
             elif status == "in progress":
-                return {"status": status, "message": "Conversion already in progress"}
+                return {"status": status,
+                        "message": "Conversion already in progress"}
 
+        # Get YT object, convert, download
         yt = YouTube(video_id)
         video = yt.streams.filter(only_audio=True).first()
         video_path = f"temp_{task_id}.mp4"
@@ -52,12 +67,16 @@ async def get_url_id(url: str):
         os.remove(video_path)
         
         conversion_status[video_id] = {"status": "completed", "mp3_path": mp3_path, "task_id": task_id}
-
-        return {"status": "completed", "message": "Conversion completed", "task_id": task_id}
+        logger.info(f"Conversion completed for task_id: {task_id}")
+        return {"status": "completed",
+                "message": "Conversion completed",
+                "task_id": task_id}
 
 
     except PytubeError as err:    
-        conversion_status[video_id] = {"status": "failed", "error": str(err)}
+        conversion_status[video_id] = {"status": "failed",
+                                       "error": str(err)}
+        logger.error(f"Conversion failed for task_id: {task_id}, Error: {str(e)}")
         raise HTTPException(status_code=400, detail=str(err))
 
  
