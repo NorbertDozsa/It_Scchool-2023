@@ -43,9 +43,11 @@ async def get_url_id(url: str):
             video_id = url.split("/v/")[1][:11]
         elif "youtu.be/" in url:
             video_id = url.split("youtu.be/")[1][:11]
+            logger.info(f"Extraction completed for video_id: {video_id}")
         if not video_id:
             raise HTTPException(status_code=404, detail="Error: Unable to extract video ID from link")
-        
+        logger.error(f"Extraction failed for video_id: {video_id}")
+
         # Update conversion status
         if video_id in conversion_status:
             status = conversion_status[video_id]["status"]
