@@ -4,7 +4,7 @@ import re
 
 # Prompt user to enter the YouTube link
 link = input("Enter the YouTube link: ")
-# link = ["https://youtu.be/GADD101GPvs"]
+# link = ["https://www.youtube.com/watch?v=SJhISTQZD4s&ab_channel=HouseSix"]
 
 # Check that the link is a valid YouTube link
 if not re.match(r'^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+$', link):

@@ -14,4 +14,4 @@ def get_mp3_yt(url: str):
     audio_clip.write_audiofile(audio_file[:-4] + ".mp3")
 
 
-get_mp3_yt("https://www.youtube.com/watch?v=YhEtMIXlk-w&ab_channel=NeferLopez")
+get_mp3_yt("https://www.youtube.com/watch?v=SJhISTQZD4s&ab_channel=HouseSix")
