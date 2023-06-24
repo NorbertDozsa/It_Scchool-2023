@@ -85,7 +85,7 @@ async def get_url_id(url: str) -> Convert:
 
  
 @app.get("/status/{task_id}")
-async def check_download_status(video_id: str):
+async def check_download_status(video_id: Convert):
     """Returns the status for the given ID"""
     try:
         if video_id in conversion_status:
@@ -97,7 +97,7 @@ async def check_download_status(video_id: str):
 
     
 @app.get("/download/{task_id}")
-async def download_mp3(task_id: str):
+async def download_mp3(task_id: str) -> Convert:
     """Downloads the audio file for the given ID"""
     try:
         for video_id, status in conversion_status.items():

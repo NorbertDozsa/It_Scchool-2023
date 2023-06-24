@@ -7,4 +7,4 @@ class Convert(BaseModel):
     message: str
     video_id: object
     task_id: str
-    
+    url: str
