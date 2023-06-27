@@ -1,0 +1,519 @@
+2023-06-19 20:29:32,028 [DEBUG] Hello method called.
+2023-06-19 20:29:32,028 [INFO] Hello method called.
+2023-06-19 20:29:32,028 [WARNING] Hello method called.
+2023-06-19 20:29:32,029 [ERROR] Hello method called.
+2023-06-19 20:29:32,029 [CRITICAL] Hello method called.
+2023-06-26 15:41:38,389 [INFO] BEGIN (implicit)
+2023-06-26 15:41:38,389 [INFO] COMMIT
+2023-06-26 15:42:00,170 [INFO] BEGIN (implicit)
+2023-06-26 15:42:00,170 [INFO] COMMIT
+2023-06-26 15:46:54,528 [INFO] BEGIN (implicit)
+2023-06-26 15:46:54,530 [INFO] COMMIT
+2023-06-26 15:46:56,582 [INFO] BEGIN (implicit)
+2023-06-26 15:46:56,582 [INFO] COMMIT
+2023-06-26 15:46:59,854 [INFO] BEGIN (implicit)
+2023-06-26 15:46:59,854 [INFO] COMMIT
+2023-06-26 15:47:01,342 [INFO] BEGIN (implicit)
+2023-06-26 15:47:01,342 [INFO] COMMIT
+2023-06-26 15:47:02,907 [INFO] BEGIN (implicit)
+2023-06-26 15:47:02,907 [INFO] COMMIT
+2023-06-26 15:47:12,757 [INFO] BEGIN (implicit)
+2023-06-26 15:47:12,757 [INFO] COMMIT
+2023-06-26 15:47:15,125 [INFO] BEGIN (implicit)
+2023-06-26 15:47:15,125 [INFO] COMMIT
+2023-06-26 15:47:20,155 [INFO] BEGIN (implicit)
+2023-06-26 15:47:20,156 [INFO] COMMIT
+2023-06-26 15:47:22,045 [INFO] BEGIN (implicit)
+2023-06-26 15:47:22,045 [INFO] COMMIT
+2023-06-26 15:47:39,301 [INFO] BEGIN (implicit)
+2023-06-26 15:47:39,301 [INFO] COMMIT
+2023-06-26 15:47:44,360 [INFO] BEGIN (implicit)
+2023-06-26 15:47:44,360 [INFO] COMMIT
+2023-06-26 15:47:46,314 [INFO] BEGIN (implicit)
+2023-06-26 15:47:46,314 [INFO] COMMIT
+2023-06-26 15:47:54,561 [INFO] BEGIN (implicit)
+2023-06-26 15:47:54,561 [INFO] COMMIT
+2023-06-26 15:48:00,797 [INFO] BEGIN (implicit)
+2023-06-26 15:48:00,797 [INFO] COMMIT
+2023-06-26 15:48:05,994 [INFO] BEGIN (implicit)
+2023-06-26 15:48:05,994 [INFO] COMMIT
+2023-06-26 15:48:12,218 [INFO] BEGIN (implicit)
+2023-06-26 15:48:12,218 [INFO] COMMIT
+2023-06-26 15:48:16,804 [INFO] BEGIN (implicit)
+2023-06-26 15:48:16,804 [INFO] COMMIT
+2023-06-26 15:48:19,063 [INFO] BEGIN (implicit)
+2023-06-26 15:48:19,064 [INFO] COMMIT
+2023-06-26 15:48:22,232 [INFO] BEGIN (implicit)
+2023-06-26 15:48:22,232 [INFO] COMMIT
+2023-06-26 15:48:33,330 [INFO] BEGIN (implicit)
+2023-06-26 15:48:33,330 [INFO] COMMIT
+2023-06-26 15:48:34,677 [INFO] BEGIN (implicit)
+2023-06-26 15:48:34,677 [INFO] COMMIT
+2023-06-26 15:48:44,443 [INFO] BEGIN (implicit)
+2023-06-26 15:48:44,444 [INFO] COMMIT
+2023-06-26 15:48:49,772 [INFO] BEGIN (implicit)
+2023-06-26 15:48:49,773 [INFO] COMMIT
+2023-06-26 15:48:52,446 [INFO] BEGIN (implicit)
+2023-06-26 15:48:52,446 [INFO] COMMIT
+2023-06-26 15:48:54,213 [INFO] BEGIN (implicit)
+2023-06-26 15:48:54,213 [INFO] COMMIT
+2023-06-26 15:48:56,950 [INFO] BEGIN (implicit)
+2023-06-26 15:48:56,950 [INFO] COMMIT
+2023-06-26 15:49:01,848 [INFO] BEGIN (implicit)
+2023-06-26 15:49:01,849 [INFO] COMMIT
+2023-06-26 15:49:11,710 [INFO] BEGIN (implicit)
+2023-06-26 15:49:11,710 [INFO] COMMIT
+2023-06-26 15:49:16,869 [INFO] BEGIN (implicit)
+2023-06-26 15:49:16,870 [INFO] COMMIT
+2023-06-26 15:49:19,670 [INFO] BEGIN (implicit)
+2023-06-26 15:49:19,670 [INFO] COMMIT
+2023-06-26 15:49:26,282 [INFO] BEGIN (implicit)
+2023-06-26 15:49:26,282 [INFO] COMMIT
+2023-06-26 15:49:29,663 [INFO] BEGIN (implicit)
+2023-06-26 15:49:29,663 [INFO] COMMIT
+2023-06-26 15:49:35,108 [INFO] BEGIN (implicit)
+2023-06-26 15:49:35,108 [INFO] COMMIT
+2023-06-26 15:49:39,590 [INFO] BEGIN (implicit)
+2023-06-26 15:49:39,590 [INFO] COMMIT
+2023-06-26 15:49:42,275 [INFO] BEGIN (implicit)
+2023-06-26 15:49:42,277 [INFO] COMMIT
+2023-06-26 15:49:43,250 [INFO] BEGIN (implicit)
+2023-06-26 15:49:43,250 [INFO] COMMIT
+2023-06-26 15:49:44,370 [INFO] BEGIN (implicit)
+2023-06-26 15:49:44,370 [INFO] COMMIT
+2023-06-26 15:49:54,258 [INFO] BEGIN (implicit)
+2023-06-26 15:49:54,258 [INFO] COMMIT
+2023-06-26 15:50:26,913 [INFO] BEGIN (implicit)
+2023-06-26 15:50:26,913 [INFO] COMMIT
+2023-06-26 15:50:31,806 [INFO] BEGIN (implicit)
+2023-06-26 15:50:31,806 [INFO] COMMIT
+2023-06-26 15:50:36,506 [INFO] BEGIN (implicit)
+2023-06-26 15:50:36,507 [INFO] COMMIT
+2023-06-26 15:50:43,714 [INFO] BEGIN (implicit)
+2023-06-26 15:50:43,714 [INFO] COMMIT
+2023-06-26 15:50:51,460 [INFO] BEGIN (implicit)
+2023-06-26 15:50:51,460 [INFO] COMMIT
+2023-06-26 15:58:19,085 [INFO] BEGIN (implicit)
+2023-06-26 15:58:19,086 [INFO] COMMIT
+2023-06-26 15:58:24,814 [INFO] BEGIN (implicit)
+2023-06-26 15:58:24,814 [INFO] COMMIT
+2023-06-26 15:58:25,383 [INFO] BEGIN (implicit)
+2023-06-26 15:58:25,384 [INFO] COMMIT
+2023-06-26 15:58:50,162 [INFO] BEGIN (implicit)
+2023-06-26 15:58:50,162 [INFO] COMMIT
+2023-06-26 15:58:58,274 [INFO] BEGIN (implicit)
+2023-06-26 15:58:58,274 [INFO] COMMIT
+2023-06-26 15:58:58,755 [INFO] BEGIN (implicit)
+2023-06-26 15:58:58,755 [INFO] COMMIT
+2023-06-26 15:59:42,844 [INFO] BEGIN (implicit)
+2023-06-26 15:59:42,844 [INFO] COMMIT
+2023-06-26 15:59:49,824 [INFO] BEGIN (implicit)
+2023-06-26 15:59:49,824 [INFO] COMMIT
+2023-06-26 15:59:52,625 [INFO] BEGIN (implicit)
+2023-06-26 15:59:52,625 [INFO] COMMIT
+2023-06-26 16:00:17,255 [INFO] BEGIN (implicit)
+2023-06-26 16:00:17,256 [INFO] COMMIT
+2023-06-26 16:09:27,920 [INFO] BEGIN (implicit)
+2023-06-26 16:09:27,920 [INFO] COMMIT
+2023-06-26 16:09:35,892 [INFO] BEGIN (implicit)
+2023-06-26 16:09:35,892 [INFO] COMMIT
+2023-06-26 16:09:41,077 [INFO] BEGIN (implicit)
+2023-06-26 16:09:41,077 [INFO] COMMIT
+2023-06-26 16:09:43,550 [INFO] BEGIN (implicit)
+2023-06-26 16:09:43,550 [INFO] COMMIT
+2023-06-26 16:09:45,115 [INFO] BEGIN (implicit)
+2023-06-26 16:09:45,115 [INFO] COMMIT
+2023-06-26 16:09:46,673 [INFO] BEGIN (implicit)
+2023-06-26 16:09:46,673 [INFO] COMMIT
+2023-06-26 16:09:48,655 [INFO] BEGIN (implicit)
+2023-06-26 16:09:48,655 [INFO] COMMIT
+2023-06-26 16:09:49,196 [INFO] BEGIN (implicit)
+2023-06-26 16:09:49,196 [INFO] COMMIT
+2023-06-26 16:09:53,715 [INFO] BEGIN (implicit)
+2023-06-26 16:09:53,716 [INFO] COMMIT
+2023-06-26 16:09:59,931 [INFO] BEGIN (implicit)
+2023-06-26 16:09:59,932 [INFO] COMMIT
+2023-06-26 16:10:04,594 [INFO] BEGIN (implicit)
+2023-06-26 16:10:04,594 [INFO] COMMIT
+2023-06-26 16:10:18,255 [INFO] BEGIN (implicit)
+2023-06-26 16:10:18,255 [INFO] COMMIT
+2023-06-26 16:10:19,405 [INFO] BEGIN (implicit)
+2023-06-26 16:10:19,405 [INFO] COMMIT
+2023-06-26 16:10:21,870 [INFO] BEGIN (implicit)
+2023-06-26 16:10:21,870 [INFO] COMMIT
+2023-06-26 16:10:29,513 [INFO] BEGIN (implicit)
+2023-06-26 16:10:29,513 [INFO] COMMIT
+2023-06-26 16:10:37,541 [INFO] BEGIN (implicit)
+2023-06-26 16:10:37,541 [INFO] COMMIT
+2023-06-26 16:10:38,719 [INFO] BEGIN (implicit)
+2023-06-26 16:10:38,720 [INFO] COMMIT
+2023-06-26 16:10:48,270 [INFO] BEGIN (implicit)
+2023-06-26 16:10:48,271 [INFO] COMMIT
+2023-06-26 16:10:53,165 [INFO] BEGIN (implicit)
+2023-06-26 16:10:53,165 [INFO] COMMIT
+2023-06-26 16:11:00,693 [INFO] BEGIN (implicit)
+2023-06-26 16:11:00,694 [INFO] COMMIT
+2023-06-26 16:11:10,258 [INFO] BEGIN (implicit)
+2023-06-26 16:11:10,259 [INFO] COMMIT
+2023-06-26 16:11:16,771 [INFO] BEGIN (implicit)
+2023-06-26 16:11:16,771 [INFO] COMMIT
+2023-06-26 16:11:19,373 [INFO] BEGIN (implicit)
+2023-06-26 16:11:19,374 [INFO] COMMIT
+2023-06-26 16:11:25,644 [INFO] BEGIN (implicit)
+2023-06-26 16:11:25,645 [INFO] COMMIT
+2023-06-26 16:11:43,571 [INFO] BEGIN (implicit)
+2023-06-26 16:11:43,572 [INFO] COMMIT
+2023-06-26 16:11:47,669 [INFO] BEGIN (implicit)
+2023-06-26 16:11:47,669 [INFO] COMMIT
+2023-06-26 16:11:48,835 [INFO] BEGIN (implicit)
+2023-06-26 16:11:48,836 [INFO] COMMIT
+2023-06-26 16:11:50,429 [INFO] BEGIN (implicit)
+2023-06-26 16:11:50,429 [INFO] COMMIT
+2023-06-26 16:11:54,618 [INFO] BEGIN (implicit)
+2023-06-26 16:11:54,619 [INFO] COMMIT
+2023-06-26 16:11:55,653 [INFO] BEGIN (implicit)
+2023-06-26 16:11:55,654 [INFO] COMMIT
+2023-06-26 16:12:21,997 [INFO] BEGIN (implicit)
+2023-06-26 16:12:21,998 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:12:21,998 [INFO] [raw sql] ()
+2023-06-26 16:12:22,001 [INFO] PRAGMA temp.table_info("courses")
+2023-06-26 16:12:22,001 [INFO] [raw sql] ()
+2023-06-26 16:12:22,001 [INFO] 
+CREATE TABLE courses (
+	id INTEGER NOT NULL, 
+	name VARCHAR NOT NULL, 
+	description VARCHAR NOT NULL, 
+	listed_date DATETIME NOT NULL, 
+	start_date DATETIME NOT NULL, 
+	trainer VARCHAR NOT NULL, 
+	seats INTEGER NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+2023-06-26 16:12:22,001 [INFO] [no key 0.00005s] ()
+2023-06-26 16:12:22,003 [INFO] COMMIT
+2023-06-26 16:12:27,974 [INFO] BEGIN (implicit)
+2023-06-26 16:12:27,974 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:12:27,974 [INFO] [raw sql] ()
+2023-06-26 16:12:27,974 [INFO] COMMIT
+2023-06-26 16:12:29,543 [INFO] BEGIN (implicit)
+2023-06-26 16:12:29,544 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:12:29,544 [INFO] [raw sql] ()
+2023-06-26 16:12:29,544 [INFO] COMMIT
+2023-06-26 16:13:39,670 [INFO] BEGIN (implicit)
+2023-06-26 16:13:39,670 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:13:39,670 [INFO] [raw sql] ()
+2023-06-26 16:13:39,670 [INFO] COMMIT
+2023-06-26 16:13:57,207 [INFO] BEGIN (implicit)
+2023-06-26 16:13:57,207 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:13:57,207 [INFO] [raw sql] ()
+2023-06-26 16:13:57,208 [INFO] COMMIT
+2023-06-26 16:13:59,718 [INFO] BEGIN (implicit)
+2023-06-26 16:13:59,718 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:13:59,718 [INFO] [raw sql] ()
+2023-06-26 16:13:59,718 [INFO] COMMIT
+2023-06-26 16:14:00,768 [INFO] BEGIN (implicit)
+2023-06-26 16:14:00,768 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:14:00,768 [INFO] [raw sql] ()
+2023-06-26 16:14:00,768 [INFO] COMMIT
+2023-06-26 16:14:09,211 [INFO] BEGIN (implicit)
+2023-06-26 16:14:09,211 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:14:09,211 [INFO] [raw sql] ()
+2023-06-26 16:14:09,211 [INFO] COMMIT
+2023-06-26 16:14:13,929 [INFO] BEGIN (implicit)
+2023-06-26 16:14:13,929 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:14:13,929 [INFO] [raw sql] ()
+2023-06-26 16:14:13,929 [INFO] COMMIT
+2023-06-26 16:14:24,982 [INFO] BEGIN (implicit)
+2023-06-26 16:14:24,983 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:14:24,983 [INFO] [raw sql] ()
+2023-06-26 16:14:24,983 [INFO] COMMIT
+2023-06-26 16:14:25,460 [INFO] BEGIN (implicit)
+2023-06-26 16:14:25,460 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:14:25,460 [INFO] [raw sql] ()
+2023-06-26 16:14:25,460 [INFO] COMMIT
+2023-06-26 16:15:11,398 [INFO] BEGIN (implicit)
+2023-06-26 16:15:11,398 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:15:11,398 [INFO] [raw sql] ()
+2023-06-26 16:15:11,399 [INFO] COMMIT
+2023-06-26 16:16:04,299 [INFO] BEGIN (implicit)
+2023-06-26 16:16:04,299 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:16:04,299 [INFO] [raw sql] ()
+2023-06-26 16:16:04,299 [INFO] COMMIT
+2023-06-26 16:16:08,615 [INFO] BEGIN (implicit)
+2023-06-26 16:16:08,615 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:16:08,615 [INFO] [raw sql] ()
+2023-06-26 16:16:08,615 [INFO] COMMIT
+2023-06-26 16:16:09,161 [INFO] BEGIN (implicit)
+2023-06-26 16:16:09,161 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:16:09,161 [INFO] [raw sql] ()
+2023-06-26 16:16:09,161 [INFO] COMMIT
+2023-06-26 16:16:42,187 [INFO] BEGIN (implicit)
+2023-06-26 16:16:42,187 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:16:42,187 [INFO] [raw sql] ()
+2023-06-26 16:16:42,188 [INFO] COMMIT
+2023-06-26 16:17:01,829 [INFO] BEGIN (implicit)
+2023-06-26 16:17:01,830 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:17:01,830 [INFO] [raw sql] ()
+2023-06-26 16:17:01,830 [INFO] COMMIT
+2023-06-26 16:17:10,257 [INFO] BEGIN (implicit)
+2023-06-26 16:17:10,257 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:17:10,257 [INFO] [raw sql] ()
+2023-06-26 16:17:10,257 [INFO] COMMIT
+2023-06-26 16:17:13,269 [INFO] BEGIN (implicit)
+2023-06-26 16:17:13,269 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:17:13,269 [INFO] [raw sql] ()
+2023-06-26 16:17:13,270 [INFO] COMMIT
+2023-06-26 16:17:21,519 [INFO] BEGIN (implicit)
+2023-06-26 16:17:21,519 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:17:21,519 [INFO] [raw sql] ()
+2023-06-26 16:17:21,520 [INFO] COMMIT
+2023-06-26 16:17:22,686 [INFO] BEGIN (implicit)
+2023-06-26 16:17:22,687 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:17:22,687 [INFO] [raw sql] ()
+2023-06-26 16:17:22,687 [INFO] COMMIT
+2023-06-26 16:17:41,136 [INFO] BEGIN (implicit)
+2023-06-26 16:17:41,136 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:17:41,137 [INFO] [raw sql] ()
+2023-06-26 16:17:41,137 [INFO] COMMIT
+2023-06-26 16:17:54,224 [INFO] BEGIN (implicit)
+2023-06-26 16:17:54,225 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:17:54,225 [INFO] [raw sql] ()
+2023-06-26 16:17:54,225 [INFO] COMMIT
+2023-06-26 16:18:00,543 [INFO] BEGIN (implicit)
+2023-06-26 16:18:00,543 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:18:00,543 [INFO] [raw sql] ()
+2023-06-26 16:18:00,544 [INFO] COMMIT
+2023-06-26 16:18:01,243 [INFO] BEGIN (implicit)
+2023-06-26 16:18:01,243 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:18:01,243 [INFO] [raw sql] ()
+2023-06-26 16:18:01,243 [INFO] COMMIT
+2023-06-26 16:18:09,684 [INFO] BEGIN (implicit)
+2023-06-26 16:18:09,685 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:18:09,685 [INFO] [raw sql] ()
+2023-06-26 16:18:09,685 [INFO] COMMIT
+2023-06-26 16:18:14,973 [INFO] BEGIN (implicit)
+2023-06-26 16:18:14,975 [INFO] INSERT INTO courses (name, description, listed_date, start_date, trainer, seats) VALUES (?, ?, ?, ?, ?, ?)
+2023-06-26 16:18:14,975 [INFO] [generated in 0.00017s] ('Agile Methodologies', 'Become a scrum master!', '2023-06-26 16:18:14.971642', '2023-12-01 00:00:00.000000', 'Ionut', 15)
+2023-06-26 16:18:14,976 [INFO] COMMIT
+2023-06-26 16:18:14,977 [INFO] BEGIN (implicit)
+2023-06-26 16:18:14,978 [INFO] SELECT courses.id, courses.name, courses.description, courses.listed_date, courses.start_date, courses.trainer, courses.seats 
+FROM courses 
+WHERE courses.id = ?
+2023-06-26 16:18:14,978 [INFO] [generated in 0.00007s] (1,)
+2023-06-26 16:18:14,981 [INFO] ROLLBACK
+2023-06-26 16:18:19,016 [INFO] BEGIN (implicit)
+2023-06-26 16:18:19,017 [INFO] INSERT INTO courses (name, description, listed_date, start_date, trainer, seats) VALUES (?, ?, ?, ?, ?, ?)
+2023-06-26 16:18:19,017 [INFO] [cached since 4.043s ago] ('Agile Methodologies', 'Become a scrum master!', '2023-06-26 16:18:19.015184', '2023-12-01 00:00:00.000000', 'Ionut', 15)
+2023-06-26 16:18:19,019 [INFO] COMMIT
+2023-06-26 16:18:19,021 [INFO] BEGIN (implicit)
+2023-06-26 16:18:19,022 [INFO] SELECT courses.id, courses.name, courses.description, courses.listed_date, courses.start_date, courses.trainer, courses.seats 
+FROM courses 
+WHERE courses.id = ?
+2023-06-26 16:18:19,022 [INFO] [cached since 4.044s ago] (2,)
+2023-06-26 16:18:19,024 [INFO] ROLLBACK
+2023-06-26 16:18:34,108 [INFO] BEGIN (implicit)
+2023-06-26 16:18:34,108 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:18:34,109 [INFO] [raw sql] ()
+2023-06-26 16:18:34,109 [INFO] COMMIT
+2023-06-26 16:18:34,551 [INFO] BEGIN (implicit)
+2023-06-26 16:18:34,551 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:18:34,551 [INFO] [raw sql] ()
+2023-06-26 16:18:34,551 [INFO] COMMIT
+2023-06-26 16:20:45,035 [INFO] BEGIN (implicit)
+2023-06-26 16:20:45,035 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:20:45,035 [INFO] [raw sql] ()
+2023-06-26 16:20:45,035 [INFO] COMMIT
+2023-06-26 16:20:46,355 [INFO] BEGIN (implicit)
+2023-06-26 16:20:46,355 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:20:46,355 [INFO] [raw sql] ()
+2023-06-26 16:20:46,355 [INFO] COMMIT
+2023-06-26 16:21:01,352 [INFO] BEGIN (implicit)
+2023-06-26 16:21:01,352 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:21:01,352 [INFO] [raw sql] ()
+2023-06-26 16:21:01,352 [INFO] COMMIT
+2023-06-26 16:21:03,800 [INFO] BEGIN (implicit)
+2023-06-26 16:21:03,800 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:21:03,800 [INFO] [raw sql] ()
+2023-06-26 16:21:03,801 [INFO] COMMIT
+2023-06-26 16:21:06,948 [INFO] BEGIN (implicit)
+2023-06-26 16:21:06,948 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:21:06,948 [INFO] [raw sql] ()
+2023-06-26 16:21:06,949 [INFO] COMMIT
+2023-06-26 16:21:07,819 [INFO] BEGIN (implicit)
+2023-06-26 16:21:07,819 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:21:07,819 [INFO] [raw sql] ()
+2023-06-26 16:21:07,819 [INFO] COMMIT
+2023-06-26 16:21:11,148 [INFO] BEGIN (implicit)
+2023-06-26 16:21:11,149 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses
+2023-06-26 16:21:11,149 [INFO] [generated in 0.00014s] ()
+2023-06-26 16:21:11,151 [INFO] ROLLBACK
+2023-06-26 16:21:26,806 [INFO] BEGIN (implicit)
+2023-06-26 16:21:26,807 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:21:26,807 [INFO] [raw sql] ()
+2023-06-26 16:21:26,807 [INFO] COMMIT
+2023-06-26 16:21:39,990 [INFO] BEGIN (implicit)
+2023-06-26 16:21:39,990 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:21:39,990 [INFO] [raw sql] ()
+2023-06-26 16:21:39,990 [INFO] COMMIT
+2023-06-26 16:21:56,762 [INFO] BEGIN (implicit)
+2023-06-26 16:21:56,763 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:21:56,763 [INFO] [raw sql] ()
+2023-06-26 16:21:56,763 [INFO] COMMIT
+2023-06-26 16:21:59,474 [INFO] BEGIN (implicit)
+2023-06-26 16:21:59,474 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:21:59,474 [INFO] [raw sql] ()
+2023-06-26 16:21:59,475 [INFO] COMMIT
+2023-06-26 16:22:00,954 [INFO] BEGIN (implicit)
+2023-06-26 16:22:00,954 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:22:00,954 [INFO] [raw sql] ()
+2023-06-26 16:22:00,955 [INFO] COMMIT
+2023-06-26 16:22:14,851 [INFO] BEGIN (implicit)
+2023-06-26 16:22:14,851 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:22:14,851 [INFO] [raw sql] ()
+2023-06-26 16:22:14,852 [INFO] COMMIT
+2023-06-26 16:22:15,990 [INFO] BEGIN (implicit)
+2023-06-26 16:22:15,990 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:22:15,990 [INFO] [raw sql] ()
+2023-06-26 16:22:15,990 [INFO] COMMIT
+2023-06-26 16:22:18,321 [INFO] BEGIN (implicit)
+2023-06-26 16:22:18,321 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:22:18,322 [INFO] [raw sql] ()
+2023-06-26 16:22:18,322 [INFO] COMMIT
+2023-06-26 16:22:29,436 [INFO] BEGIN (implicit)
+2023-06-26 16:22:29,436 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:22:29,436 [INFO] [raw sql] ()
+2023-06-26 16:22:29,437 [INFO] COMMIT
+2023-06-26 16:22:30,957 [INFO] BEGIN (implicit)
+2023-06-26 16:22:30,957 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:22:30,957 [INFO] [raw sql] ()
+2023-06-26 16:22:30,957 [INFO] COMMIT
+2023-06-26 16:22:47,898 [INFO] BEGIN (implicit)
+2023-06-26 16:22:47,898 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:22:47,898 [INFO] [raw sql] ()
+2023-06-26 16:22:47,898 [INFO] COMMIT
+2023-06-26 16:22:49,461 [INFO] BEGIN (implicit)
+2023-06-26 16:22:49,461 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:22:49,461 [INFO] [raw sql] ()
+2023-06-26 16:22:49,461 [INFO] COMMIT
+2023-06-26 16:22:50,409 [INFO] BEGIN (implicit)
+2023-06-26 16:22:50,410 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:22:50,410 [INFO] [raw sql] ()
+2023-06-26 16:22:50,410 [INFO] COMMIT
+2023-06-26 16:22:53,242 [INFO] BEGIN (implicit)
+2023-06-26 16:22:53,245 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses
+2023-06-26 16:22:53,245 [INFO] [generated in 0.00019s] ()
+2023-06-26 16:22:53,246 [INFO] ROLLBACK
+2023-06-26 16:23:16,425 [INFO] BEGIN (implicit)
+2023-06-26 16:23:16,425 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:23:16,425 [INFO] [raw sql] ()
+2023-06-26 16:23:16,425 [INFO] COMMIT
+2023-06-26 16:23:17,774 [INFO] BEGIN (implicit)
+2023-06-26 16:23:17,775 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:23:17,775 [INFO] [raw sql] ()
+2023-06-26 16:23:17,775 [INFO] COMMIT
+2023-06-26 16:23:19,804 [INFO] BEGIN (implicit)
+2023-06-26 16:23:19,806 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses 
+WHERE courses.id = ?
+ LIMIT ? OFFSET ?
+2023-06-26 16:23:19,806 [INFO] [generated in 0.00017s] (1, 1, 0)
+2023-06-26 16:23:19,809 [INFO] ROLLBACK
+2023-06-26 16:23:22,509 [INFO] BEGIN (implicit)
+2023-06-26 16:23:22,509 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses 
+WHERE courses.id = ?
+ LIMIT ? OFFSET ?
+2023-06-26 16:23:22,509 [INFO] [cached since 2.703s ago] (5, 1, 0)
+2023-06-26 16:23:22,510 [INFO] ROLLBACK
+2023-06-26 16:23:26,105 [INFO] BEGIN (implicit)
+2023-06-26 16:23:26,108 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses 
+WHERE courses.id = ?
+ LIMIT ? OFFSET ?
+2023-06-26 16:23:26,109 [INFO] [cached since 6.302s ago] (2, 1, 0)
+2023-06-26 16:23:26,119 [INFO] ROLLBACK
+2023-06-26 16:23:27,441 [INFO] BEGIN (implicit)
+2023-06-26 16:23:27,441 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses 
+WHERE courses.id = ?
+ LIMIT ? OFFSET ?
+2023-06-26 16:23:27,441 [INFO] [cached since 7.635s ago] (3, 1, 0)
+2023-06-26 16:23:27,442 [INFO] ROLLBACK
+2023-06-26 16:23:28,677 [INFO] BEGIN (implicit)
+2023-06-26 16:23:28,679 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses 
+WHERE courses.id = ?
+ LIMIT ? OFFSET ?
+2023-06-26 16:23:28,679 [INFO] [cached since 8.873s ago] (2, 1, 0)
+2023-06-26 16:23:28,682 [INFO] ROLLBACK
+2023-06-26 16:23:49,688 [INFO] BEGIN (implicit)
+2023-06-26 16:23:49,689 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 16:23:49,689 [INFO] [raw sql] ()
+2023-06-26 16:23:49,689 [INFO] COMMIT
+2023-06-26 19:00:36,130 [INFO] BEGIN (implicit)
+2023-06-26 19:00:36,130 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 19:00:36,130 [INFO] [raw sql] ()
+2023-06-26 19:00:36,131 [INFO] COMMIT
+2023-06-26 19:14:49,434 [INFO] BEGIN (implicit)
+2023-06-26 19:14:49,434 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 19:14:49,434 [INFO] [raw sql] ()
+2023-06-26 19:14:49,436 [INFO] COMMIT
+2023-06-26 19:14:50,538 [INFO] BEGIN (implicit)
+2023-06-26 19:14:50,538 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 19:14:50,538 [INFO] [raw sql] ()
+2023-06-26 19:14:50,539 [INFO] COMMIT
+2023-06-26 19:17:39,442 [INFO] BEGIN (implicit)
+2023-06-26 19:17:39,446 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses
+2023-06-26 19:17:39,446 [INFO] [generated in 0.00055s] ()
+2023-06-26 19:17:39,457 [INFO] ROLLBACK
+2023-06-26 19:17:52,567 [INFO] BEGIN (implicit)
+2023-06-26 19:17:52,572 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses 
+WHERE courses.id = ?
+ LIMIT ? OFFSET ?
+2023-06-26 19:17:52,572 [INFO] [generated in 0.00041s] (1, 1, 0)
+2023-06-26 19:17:52,575 [INFO] ROLLBACK
+2023-06-26 19:18:29,426 [INFO] BEGIN (implicit)
+2023-06-26 19:18:29,430 [INFO] INSERT INTO courses (name, description, listed_date, start_date, trainer, seats) VALUES (?, ?, ?, ?, ?, ?)
+2023-06-26 19:18:29,430 [INFO] [generated in 0.00030s] ('Python', 'Become a scrum master!', '2023-06-26 19:18:29.426121', '2023-12-01 00:00:00.000000', 'Mihai', 15)
+2023-06-26 19:18:29,432 [INFO] COMMIT
+2023-06-26 19:18:29,435 [INFO] BEGIN (implicit)
+2023-06-26 19:18:29,436 [INFO] SELECT courses.id, courses.name, courses.description, courses.listed_date, courses.start_date, courses.trainer, courses.seats 
+FROM courses 
+WHERE courses.id = ?
+2023-06-26 19:18:29,436 [INFO] [generated in 0.00020s] (3,)
+2023-06-26 19:18:29,438 [INFO] ROLLBACK
+2023-06-26 19:18:59,184 [INFO] BEGIN (implicit)
+2023-06-26 19:18:59,185 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses 
+WHERE courses.id = ?
+ LIMIT ? OFFSET ?
+2023-06-26 19:18:59,185 [INFO] [cached since 66.61s ago] (1, 1, 0)
+2023-06-26 19:18:59,189 [INFO] ROLLBACK
+2023-06-26 19:19:00,913 [INFO] BEGIN (implicit)
+2023-06-26 19:19:00,913 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses
+2023-06-26 19:19:00,914 [INFO] [cached since 81.47s ago] ()
+2023-06-26 19:19:00,917 [INFO] ROLLBACK
+2023-06-26 19:19:26,393 [INFO] BEGIN (implicit)
+2023-06-26 19:19:26,393 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 19:19:26,393 [INFO] [raw sql] ()
+2023-06-26 19:19:26,394 [INFO] COMMIT
+2023-06-26 19:19:29,335 [INFO] BEGIN (implicit)
+2023-06-26 19:19:29,339 [INFO] SELECT courses.id AS courses_id, courses.name AS courses_name, courses.description AS courses_description, courses.listed_date AS courses_listed_date, courses.start_date AS courses_start_date, courses.trainer AS courses_trainer, courses.seats AS courses_seats 
+FROM courses
+2023-06-26 19:19:29,340 [INFO] [generated in 0.00039s] ()
+2023-06-26 19:19:29,342 [INFO] ROLLBACK
+2023-06-26 19:33:05,978 [INFO] BEGIN (implicit)
+2023-06-26 19:33:05,979 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 19:33:05,979 [INFO] [raw sql] ()
+2023-06-26 19:33:05,979 [INFO] COMMIT
+2023-06-26 19:33:13,067 [INFO] BEGIN (implicit)
+2023-06-26 19:33:13,067 [INFO] PRAGMA main.table_info("courses")
+2023-06-26 19:33:13,068 [INFO] [raw sql] ()
+2023-06-26 19:33:13,068 [INFO] COMMIT
