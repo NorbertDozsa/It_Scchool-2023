@@ -15,29 +15,30 @@ ROOT = Path(__file__).parent
 DOWNLOAD = ROOT / 'download'
 
 app = FastAPI()
-conversion_status = {}
+# conversion_status = {}
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s]: %(message)s",
-    handlers=[
-        logging.StreamHandler(),
-    ]
-)
-logger = logging.getLogger(__name__)
+# logging.basicConfig(
+#     level=logging.INFO,
+#     format="%(asctime)s [%(levelname)s]: %(message)s",
+#     handlers=[
+#         logging.StreamHandler(),
+#     ]
+# )
+# logger = logging.getLogger(__name__)
 
 
 @app.post("/convert")
 async def convert(url: Url):
 
     try:
-        # task_id = str(uuid.uuid4())
+        task_id = str(uuid.uuid4())
         
         yt = YouTube(url)
         video = yt.streams.filter(only_audio=True).first()
         video.download()
        
         return {
+            "task_id": task_id,
             "url": url
             }
     
