@@ -1,22 +1,22 @@
 from sqlalchemy.orm import Session
-from db.models import Adds
+from db import models
 import schemas
 from datetime import datetime
 
 def get_add(db: Session, add_id: int):
-    return db.query(Adds).filter(Adds.id == add_id).first()
+    return db.query(models.Adds).filter(models.Adds.id == add_id).first()
 
 def get_adds(db: Session):
-    return db.query(Adds).all()
+    return db.query(models.Adds).all()
 
-def create_add(db: Session, add: schemas.CreateAdd) -> Adds:
-    db_add = Adds(
-        title=Adds.title,
-        description=Adds.description,
+def create_add(db: Session, add: schemas.CreateAdd):
+    db_add = models.Adds(
+        title=add.title,
+        description=add.description,
         listed_date=datetime.now(),
-        seller=Adds.seller,
-        price=Adds.price,
-        phone_number=Adds.phone_number
+        seller=add.seller,
+        price=add.price,
+        phone_number=add.phone_number
     )
     db.add(db_add)
     db.commit()
@@ -24,12 +24,12 @@ def create_add(db: Session, add: schemas.CreateAdd) -> Adds:
     return db_add
 
 def delete_add(db: Session, add: schemas.DeleteAdd):
-    db_add = Adds(
-        title=Adds.title,
-        description=Adds.description,
-        seller=Adds.seller,
-        price=Adds.price,
-        phone_number=Adds.phone_number
+    db_add = models.Adds(
+        title=add.title,
+        description=add.description,
+        seller=add.seller,
+        price=add.price,
+        phone_number=add.phone_number
     )
     db.delete(db_add)
     db.commit()

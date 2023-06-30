@@ -45,7 +45,7 @@ def get_add(id: int, db:Session = Depends(get_db)) -> Add:
 
 
 @app.post("/adds", status_code=201)
-def create_add(add: CreateAdd, db: Session = Depends(get_db)) -> CreateAdd:
+def create_add(add: CreateAdd, db: Session = Depends(get_db)) -> Add:
     db_add = crud.create_add(db, add)
     logging.info(f"Add created successfully!")
     return db_add

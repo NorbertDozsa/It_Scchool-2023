@@ -26,3 +26,53 @@ CREATE TABLE adds (
 2023-06-30 18:04:10,204 [INFO] PRAGMA main.table_info("adds")
 2023-06-30 18:04:10,204 [INFO] [raw sql] ()
 2023-06-30 18:04:10,204 [INFO] COMMIT
+2023-06-30 18:27:20,364 [INFO] BEGIN (implicit)
+2023-06-30 18:27:20,364 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:27:20,364 [INFO] [raw sql] ()
+2023-06-30 18:27:20,365 [INFO] COMMIT
+2023-06-30 18:34:08,304 [INFO] BEGIN (implicit)
+2023-06-30 18:34:08,305 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:34:08,305 [INFO] [raw sql] ()
+2023-06-30 18:34:08,307 [INFO] COMMIT
+2023-06-30 18:34:35,045 [INFO] BEGIN (implicit)
+2023-06-30 18:34:35,047 [INFO] INSERT INTO adds (title, description, listed_date, seller, price, phone_number) VALUES (adds.title, adds.description, ?, adds.seller, adds.price, adds.phone_number)
+2023-06-30 18:34:35,047 [INFO] [generated in 0.00048s] ('2023-06-30 18:34:35.044146',)
+2023-06-30 18:34:35,048 [INFO] ROLLBACK
+2023-06-30 18:38:33,735 [INFO] BEGIN (implicit)
+2023-06-30 18:38:33,736 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:38:33,736 [INFO] [raw sql] ()
+2023-06-30 18:38:33,737 [INFO] COMMIT
+2023-06-30 18:38:56,558 [INFO] BEGIN (implicit)
+2023-06-30 18:38:56,560 [INFO] INSERT INTO adds (title, description, listed_date, seller, price, phone_number) VALUES (?, ?, ?, ?, ?, ?)
+2023-06-30 18:38:56,560 [INFO] [generated in 0.00042s] ('Iphone', 'Iphone 13, black, 128 gb', '2023-06-30 18:38:56.557632', 'Ionut', 3500, '07458163429')
+2023-06-30 18:38:56,562 [INFO] COMMIT
+2023-06-30 18:38:56,564 [INFO] BEGIN (implicit)
+2023-06-30 18:38:56,566 [INFO] SELECT adds.id, adds.title, adds.description, adds.listed_date, adds.seller, adds.price, adds.phone_number 
+FROM adds 
+WHERE adds.id = ?
+2023-06-30 18:38:56,566 [INFO] [generated in 0.00061s] (1,)
+2023-06-30 18:38:56,567 [INFO] Add created successfully!
+2023-06-30 18:38:56,567 [INFO] ROLLBACK
+2023-06-30 18:41:26,298 [INFO] BEGIN (implicit)
+2023-06-30 18:41:26,298 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:41:26,298 [INFO] [raw sql] ()
+2023-06-30 18:41:26,299 [INFO] COMMIT
+2023-06-30 18:43:18,055 [INFO] BEGIN (implicit)
+2023-06-30 18:43:18,055 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:43:18,056 [INFO] [raw sql] ()
+2023-06-30 18:43:18,056 [INFO] COMMIT
+2023-06-30 18:43:31,969 [INFO] BEGIN (implicit)
+2023-06-30 18:43:31,971 [INFO] INSERT INTO adds (title, description, listed_date, seller, price, phone_number) VALUES (?, ?, ?, ?, ?, ?)
+2023-06-30 18:43:31,971 [INFO] [generated in 0.00030s] ('Monitor', 'Monitor LG', '2023-06-30 18:43:31.968614', 'George', 1500, '07458173569')
+2023-06-30 18:43:31,972 [INFO] COMMIT
+2023-06-30 18:43:31,975 [INFO] BEGIN (implicit)
+2023-06-30 18:43:31,977 [INFO] SELECT adds.id, adds.title, adds.description, adds.listed_date, adds.seller, adds.price, adds.phone_number 
+FROM adds 
+WHERE adds.id = ?
+2023-06-30 18:43:31,977 [INFO] [generated in 0.00050s] (2,)
+2023-06-30 18:43:31,978 [INFO] Add created successfully!
+2023-06-30 18:43:31,979 [INFO] ROLLBACK
+2023-06-30 18:43:51,554 [INFO] BEGIN (implicit)
+2023-06-30 18:43:51,554 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:43:51,554 [INFO] [raw sql] ()
+2023-06-30 18:43:51,555 [INFO] COMMIT
