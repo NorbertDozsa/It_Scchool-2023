@@ -1,0 +1,28 @@
+2023-06-30 18:00:58,446 [INFO] BEGIN (implicit)
+2023-06-30 18:00:58,447 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:00:58,447 [INFO] [raw sql] ()
+2023-06-30 18:00:58,449 [INFO] PRAGMA temp.table_info("adds")
+2023-06-30 18:00:58,449 [INFO] [raw sql] ()
+2023-06-30 18:00:58,450 [INFO] 
+CREATE TABLE adds (
+	id INTEGER NOT NULL, 
+	title VARCHAR NOT NULL, 
+	description VARCHAR NOT NULL, 
+	listed_date DATETIME NOT NULL, 
+	seller VARCHAR NOT NULL, 
+	price INTEGER NOT NULL, 
+	phone_number VARCHAR NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+2023-06-30 18:00:58,451 [INFO] [no key 0.00123s] ()
+2023-06-30 18:00:58,455 [INFO] COMMIT
+2023-06-30 18:01:57,827 [INFO] BEGIN (implicit)
+2023-06-30 18:01:57,827 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:01:57,827 [INFO] [raw sql] ()
+2023-06-30 18:01:57,828 [INFO] COMMIT
+2023-06-30 18:04:10,203 [INFO] BEGIN (implicit)
+2023-06-30 18:04:10,204 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:04:10,204 [INFO] [raw sql] ()
+2023-06-30 18:04:10,204 [INFO] COMMIT

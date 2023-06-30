@@ -1,8 +1,6 @@
 from typing import Union
 from fastapi import FastAPI, HTTPException
-from pytube import YouTube
-from pytube.exceptions import PytubeError
-from moviepy.editor import VideoFileClip
+import youtube_dl
 from pathlib import Path
 from schemas import *
 from starlette.responses import FileResponse
@@ -33,17 +31,23 @@ async def convert(url: Url):
     try:
         task_id = str(uuid.uuid4())
         
-        yt = YouTube(url)
-        # video = yt.streams.filter(only_audio=True).first()
-        # video.download()
-       
+        video_info = youtube_dl.YoutubeDL().extract_info(url= url, download= False)
+        file_name = f"{video_info['title']}"       
+        options = {
+            'format':'bestaudio/best',
+            'keepvideo':False,
+            'outtmpl':file_name,
+        }
+        with youtube_dl.YoutubeDL(options) as ydl:
+            ydl.download([video_info['webpade_url']])
+        
         return {
             "task_id": task_id,
             "url": url,
             }
     
-    except PytubeError as err:
-        raise HTTPException(status_code=400, detail=str(err))
+    except Exception as err:
+        print(err)
  
 # @app.get("/status/{task_id}")
 # async def check_download_status(video_id: Convert):
