@@ -76,3 +76,28 @@ WHERE adds.id = ?
 2023-06-30 18:43:51,554 [INFO] PRAGMA main.table_info("adds")
 2023-06-30 18:43:51,554 [INFO] [raw sql] ()
 2023-06-30 18:43:51,555 [INFO] COMMIT
+2023-06-30 18:43:56,235 [INFO] BEGIN (implicit)
+2023-06-30 18:43:56,236 [INFO] INSERT INTO adds (title, description, listed_date, seller, price, phone_number) VALUES (?, ?, ?, ?, ?, ?)
+2023-06-30 18:43:56,237 [INFO] [generated in 0.00028s] ('Monitor', 'Monitor LG', '2023-06-30 18:43:56.234226', 'George', 1500, '07458173569')
+2023-06-30 18:43:56,238 [INFO] COMMIT
+2023-06-30 18:43:56,241 [INFO] BEGIN (implicit)
+2023-06-30 18:43:56,243 [INFO] SELECT adds.id, adds.title, adds.description, adds.listed_date, adds.seller, adds.price, adds.phone_number 
+FROM adds 
+WHERE adds.id = ?
+2023-06-30 18:43:56,244 [INFO] [generated in 0.00046s] (3,)
+2023-06-30 18:43:56,244 [INFO] Add created successfully!
+2023-06-30 18:43:56,245 [INFO] ROLLBACK
+2023-06-30 18:44:29,901 [INFO] BEGIN (implicit)
+2023-06-30 18:44:29,902 [INFO] SELECT adds.id AS adds_id, adds.title AS adds_title, adds.description AS adds_description, adds.listed_date AS adds_listed_date, adds.seller AS adds_seller, adds.price AS adds_price, adds.phone_number AS adds_phone_number 
+FROM adds 
+WHERE adds.id = ?
+ LIMIT ? OFFSET ?
+2023-06-30 18:44:29,903 [INFO] [generated in 0.00059s] (2, 1, 0)
+2023-06-30 18:44:29,904 [INFO] ROLLBACK
+2023-06-30 18:44:36,645 [INFO] BEGIN (implicit)
+2023-06-30 18:44:36,645 [INFO] SELECT adds.id AS adds_id, adds.title AS adds_title, adds.description AS adds_description, adds.listed_date AS adds_listed_date, adds.seller AS adds_seller, adds.price AS adds_price, adds.phone_number AS adds_phone_number 
+FROM adds 
+WHERE adds.id = ?
+ LIMIT ? OFFSET ?
+2023-06-30 18:44:36,646 [INFO] [cached since 6.744s ago] (1, 1, 0)
+2023-06-30 18:44:36,647 [INFO] ROLLBACK
