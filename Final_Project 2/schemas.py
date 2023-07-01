@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from datetime import datetime
 from typing import Optional
 
-class Add(BaseModel):
+class Ad(BaseModel):
 
     class Config:
         orm_mode = True
@@ -15,7 +15,7 @@ class Add(BaseModel):
     price: int
     phone_number: str
 
-class CreateAdd(BaseModel):
+class CreateAd(BaseModel):
 
     title: str
     description: str
@@ -23,10 +23,6 @@ class CreateAdd(BaseModel):
     price: int
     phone_number: str
 
-class DeleteAdd(BaseModel):
+class DeleteAd(BaseModel):
 
-    title: str
-    description: str
-    seller: str
-    price: int
-    phone_number: str
+    id: int

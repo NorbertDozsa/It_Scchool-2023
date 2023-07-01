@@ -5,7 +5,7 @@ from sqlalchemy.schema import MetaData
 from typing import List
 from db import crud
 from db.base import SessionLocal, engine, Base
-from schemas import Add, CreateAdd, DeleteAdd
+from schemas import Ad, CreateAd, DeleteAd
 import logging
 
 
@@ -29,31 +29,48 @@ def get_db():
 
 
 
-@app.get("/adds")
-def list_adds(db: Session = Depends(get_db)) -> List[Add]:
-    logging.info("Adds listed successfully!")
-    return crud.get_adds(db)
+@app.get("/ads")
+def list_ads(db: Session = Depends(get_db)) -> List[Ad]:
+    """Lists all the ads from the database. """
+    logging.info("Ads listed successfully!")
+    try:
+        return crud.get_ads(db)
+    except HTTPException as err:
+        print(err)
+        
 
 
-@app.get("/adds/{id}")
-def get_add(id: int, db:Session = Depends(get_db)) -> Add:
-    db_add = crud.get_add(db, id)
-    if db_add:
-        return db_add
-    logging.info(f"Add {id} listed successfully!")
+@app.get("/ads/{id}")
+def get_ad(id: int, db:Session = Depends(get_db)) -> Ad:
+    """Lists the detailed advertising with the given id"""
+    db_ad = crud.get_ad(db, id)
+    if db_ad:
+        logging.info(f"Ad {id} listed successfully!")
+        return db_ad
     raise HTTPException(status_code=404, detail="Add not found!")
 
 
-@app.post("/adds", status_code=201)
-def create_add(add: CreateAdd, db: Session = Depends(get_db)) -> Add:
-    db_add = crud.create_add(db, add)
-    logging.info(f"Add created successfully!")
-    return db_add
+@app.post("/ads", status_code=201)
+def create_ad(ad: CreateAd, db: Session = Depends(get_db)) -> Ad:
+    """Creates a new advertising in the database"""
+    db_ad = crud.create_ad(db, ad)
+    logging.info(f"Ad created successfully!")
+    return db_ad
     
-@app.delete("/adds/{id}")
-def delete_add(id: int, db: Session = Depends(get_db)) -> DeleteAdd:
-    db_add = crud.delete_add(db, id)
-    if db_add:
-        logging.info(f"Add {id} deleted successfully!")
-        return {"message": "Add deleted successfully!"}
-    raise HTTPException(status_code=404, detail="Add not found!")
+@app.delete("/ads/{id}")
+def delete_ad(id: int, db: Session = Depends(get_db)) -> DeleteAd:
+    """Deletes the advertising with the given id"""
+    success = crud.delete_ad(db, id)
+    if success:
+        logging.info(f"Ad {id} deleted successfully!")
+        return {"message": "Ad deleted"}
+    raise HTTPException(status_code=404, detail="Ad not found!")
+
+@app.put("/ads/{id}")
+def update_ad(id: int, ad: CreateAd, db: Session = Depends(get_db)) -> Ad:
+    """Updates the advertising with the given id"""
+    db_ad = crud.update_ad(db, id, ad)
+    if db_ad:
+        logging.info(f"Ad {id} updated successfully!")
+        return db_ad
+    raise HTTPException(status_code=404, detail="Ad not found!")

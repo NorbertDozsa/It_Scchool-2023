@@ -101,3 +101,364 @@ WHERE adds.id = ?
  LIMIT ? OFFSET ?
 2023-06-30 18:44:36,646 [INFO] [cached since 6.744s ago] (1, 1, 0)
 2023-06-30 18:44:36,647 [INFO] ROLLBACK
+2023-06-30 18:54:53,068 [INFO] BEGIN (implicit)
+2023-06-30 18:54:53,068 [INFO] SELECT adds.id AS adds_id, adds.title AS adds_title, adds.description AS adds_description, adds.listed_date AS adds_listed_date, adds.seller AS adds_seller, adds.price AS adds_price, adds.phone_number AS adds_phone_number 
+FROM adds 
+WHERE adds.id = ?
+ LIMIT ? OFFSET ?
+2023-06-30 18:54:53,069 [INFO] [cached since 623.2s ago] (3, 1, 0)
+2023-06-30 18:54:53,070 [INFO] ROLLBACK
+2023-06-30 18:56:01,096 [INFO] BEGIN (implicit)
+2023-06-30 18:56:01,097 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:56:01,097 [INFO] [raw sql] ()
+2023-06-30 18:56:01,098 [INFO] COMMIT
+2023-06-30 18:56:10,810 [INFO] BEGIN (implicit)
+2023-06-30 18:56:10,811 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:56:10,811 [INFO] [raw sql] ()
+2023-06-30 18:56:10,812 [INFO] COMMIT
+2023-06-30 18:56:35,993 [INFO] BEGIN (implicit)
+2023-06-30 18:56:35,993 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:56:35,994 [INFO] [raw sql] ()
+2023-06-30 18:56:35,994 [INFO] COMMIT
+2023-06-30 18:58:34,295 [INFO] BEGIN (implicit)
+2023-06-30 18:58:34,296 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:58:34,296 [INFO] [raw sql] ()
+2023-06-30 18:58:34,297 [INFO] COMMIT
+2023-06-30 18:59:21,006 [INFO] BEGIN (implicit)
+2023-06-30 18:59:21,007 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:59:21,007 [INFO] [raw sql] ()
+2023-06-30 18:59:21,008 [INFO] COMMIT
+2023-06-30 18:59:31,966 [INFO] BEGIN (implicit)
+2023-06-30 18:59:31,967 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 18:59:31,967 [INFO] [raw sql] ()
+2023-06-30 18:59:31,967 [INFO] COMMIT
+2023-06-30 19:01:47,899 [INFO] BEGIN (implicit)
+2023-06-30 19:01:47,900 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:01:47,900 [INFO] [raw sql] ()
+2023-06-30 19:01:47,901 [INFO] COMMIT
+2023-06-30 19:01:58,090 [INFO] BEGIN (implicit)
+2023-06-30 19:01:58,091 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:01:58,091 [INFO] [raw sql] ()
+2023-06-30 19:01:58,092 [INFO] COMMIT
+2023-06-30 19:02:55,259 [INFO] BEGIN (implicit)
+2023-06-30 19:02:55,260 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:02:55,260 [INFO] [raw sql] ()
+2023-06-30 19:02:55,261 [INFO] COMMIT
+2023-06-30 19:04:41,717 [INFO] BEGIN (implicit)
+2023-06-30 19:04:41,717 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:04:41,717 [INFO] [raw sql] ()
+2023-06-30 19:04:41,718 [INFO] COMMIT
+2023-06-30 19:07:08,781 [INFO] BEGIN (implicit)
+2023-06-30 19:07:08,782 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:07:08,782 [INFO] [raw sql] ()
+2023-06-30 19:07:08,784 [INFO] COMMIT
+2023-06-30 19:07:20,467 [INFO] BEGIN (implicit)
+2023-06-30 19:07:20,468 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:07:20,468 [INFO] [raw sql] ()
+2023-06-30 19:07:20,469 [INFO] COMMIT
+2023-06-30 19:09:47,810 [INFO] BEGIN (implicit)
+2023-06-30 19:09:47,811 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:09:47,811 [INFO] [raw sql] ()
+2023-06-30 19:09:47,812 [INFO] COMMIT
+2023-06-30 19:10:24,242 [INFO] BEGIN (implicit)
+2023-06-30 19:10:24,242 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:10:24,243 [INFO] [raw sql] ()
+2023-06-30 19:10:24,244 [INFO] COMMIT
+2023-06-30 19:10:37,329 [INFO] BEGIN (implicit)
+2023-06-30 19:10:37,330 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:10:37,330 [INFO] [raw sql] ()
+2023-06-30 19:10:37,331 [INFO] COMMIT
+2023-06-30 19:10:43,659 [INFO] BEGIN (implicit)
+2023-06-30 19:10:43,660 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:10:43,660 [INFO] [raw sql] ()
+2023-06-30 19:10:43,661 [INFO] COMMIT
+2023-06-30 19:11:01,251 [INFO] BEGIN (implicit)
+2023-06-30 19:11:01,251 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:11:01,251 [INFO] [raw sql] ()
+2023-06-30 19:11:01,252 [INFO] COMMIT
+2023-06-30 19:12:19,660 [INFO] BEGIN (implicit)
+2023-06-30 19:12:19,661 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:12:19,661 [INFO] [raw sql] ()
+2023-06-30 19:12:19,662 [INFO] COMMIT
+2023-06-30 19:12:28,047 [INFO] BEGIN (implicit)
+2023-06-30 19:12:28,047 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:12:28,047 [INFO] [raw sql] ()
+2023-06-30 19:12:28,048 [INFO] COMMIT
+2023-06-30 19:13:25,938 [INFO] BEGIN (implicit)
+2023-06-30 19:13:25,939 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:13:25,939 [INFO] [raw sql] ()
+2023-06-30 19:13:25,939 [INFO] COMMIT
+2023-06-30 19:13:52,415 [INFO] BEGIN (implicit)
+2023-06-30 19:13:52,416 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:13:52,416 [INFO] [raw sql] ()
+2023-06-30 19:13:52,417 [INFO] COMMIT
+2023-06-30 19:15:58,560 [INFO] BEGIN (implicit)
+2023-06-30 19:15:58,561 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:15:58,561 [INFO] [raw sql] ()
+2023-06-30 19:15:58,562 [INFO] COMMIT
+2023-06-30 19:16:07,463 [INFO] BEGIN (implicit)
+2023-06-30 19:16:07,464 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:16:07,464 [INFO] [raw sql] ()
+2023-06-30 19:16:07,465 [INFO] COMMIT
+2023-06-30 19:17:56,031 [INFO] BEGIN (implicit)
+2023-06-30 19:17:56,032 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:17:56,032 [INFO] [raw sql] ()
+2023-06-30 19:17:56,033 [INFO] COMMIT
+2023-06-30 19:18:37,954 [INFO] BEGIN (implicit)
+2023-06-30 19:18:37,955 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:18:37,955 [INFO] [raw sql] ()
+2023-06-30 19:18:37,956 [INFO] COMMIT
+2023-06-30 19:18:44,015 [INFO] BEGIN (implicit)
+2023-06-30 19:18:44,016 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:18:44,016 [INFO] [raw sql] ()
+2023-06-30 19:18:44,017 [INFO] COMMIT
+2023-06-30 19:18:52,166 [INFO] BEGIN (implicit)
+2023-06-30 19:18:52,168 [INFO] SELECT adds.id AS adds_id, adds.title AS adds_title, adds.description AS adds_description, adds.listed_date AS adds_listed_date, adds.seller AS adds_seller, adds.price AS adds_price, adds.phone_number AS adds_phone_number 
+FROM adds 
+WHERE adds.id = ?
+ LIMIT ? OFFSET ?
+2023-06-30 19:18:52,169 [INFO] [generated in 0.00091s] (1, 1, 0)
+2023-06-30 19:18:52,171 [INFO] ROLLBACK
+2023-06-30 19:18:55,413 [INFO] BEGIN (implicit)
+2023-06-30 19:18:55,413 [INFO] SELECT adds.id AS adds_id, adds.title AS adds_title, adds.description AS adds_description, adds.listed_date AS adds_listed_date, adds.seller AS adds_seller, adds.price AS adds_price, adds.phone_number AS adds_phone_number 
+FROM adds 
+WHERE adds.id = ?
+ LIMIT ? OFFSET ?
+2023-06-30 19:18:55,414 [INFO] [cached since 3.246s ago] (2, 1, 0)
+2023-06-30 19:18:55,415 [INFO] ROLLBACK
+2023-06-30 19:19:10,090 [INFO] BEGIN (implicit)
+2023-06-30 19:19:10,090 [INFO] SELECT adds.id AS adds_id, adds.title AS adds_title, adds.description AS adds_description, adds.listed_date AS adds_listed_date, adds.seller AS adds_seller, adds.price AS adds_price, adds.phone_number AS adds_phone_number 
+FROM adds 
+WHERE adds.id = ?
+ LIMIT ? OFFSET ?
+2023-06-30 19:19:10,091 [INFO] [cached since 17.92s ago] (3, 1, 0)
+2023-06-30 19:19:10,093 [INFO] ROLLBACK
+2023-06-30 19:19:12,460 [INFO] BEGIN (implicit)
+2023-06-30 19:19:12,461 [INFO] SELECT adds.id AS adds_id, adds.title AS adds_title, adds.description AS adds_description, adds.listed_date AS adds_listed_date, adds.seller AS adds_seller, adds.price AS adds_price, adds.phone_number AS adds_phone_number 
+FROM adds 
+WHERE adds.id = ?
+ LIMIT ? OFFSET ?
+2023-06-30 19:19:12,462 [INFO] [cached since 20.29s ago] (4, 1, 0)
+2023-06-30 19:19:12,462 [INFO] Add 4 listed successfully!
+2023-06-30 19:19:12,463 [INFO] ROLLBACK
+2023-06-30 19:19:30,706 [INFO] BEGIN (implicit)
+2023-06-30 19:19:30,706 [INFO] PRAGMA main.table_info("adds")
+2023-06-30 19:19:30,707 [INFO] [raw sql] ()
+2023-06-30 19:19:30,707 [INFO] COMMIT
+2023-07-01 08:33:17,590 [INFO] BEGIN (implicit)
+2023-07-01 08:33:17,591 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:33:17,591 [INFO] [raw sql] ()
+2023-07-01 08:33:17,593 [INFO] PRAGMA temp.table_info("ads")
+2023-07-01 08:33:17,594 [INFO] [raw sql] ()
+2023-07-01 08:33:17,594 [INFO] 
+CREATE TABLE ads (
+	id INTEGER NOT NULL, 
+	title VARCHAR NOT NULL, 
+	description VARCHAR NOT NULL, 
+	listed_date DATETIME NOT NULL, 
+	seller VARCHAR NOT NULL, 
+	price INTEGER NOT NULL, 
+	phone_number VARCHAR NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+2023-07-01 08:33:17,595 [INFO] [no key 0.00091s] ()
+2023-07-01 08:33:17,599 [INFO] COMMIT
+2023-07-01 08:37:16,136 [INFO] BEGIN (implicit)
+2023-07-01 08:37:16,136 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:37:16,137 [INFO] [raw sql] ()
+2023-07-01 08:37:16,137 [INFO] COMMIT
+2023-07-01 08:40:02,049 [INFO] BEGIN (implicit)
+2023-07-01 08:40:02,050 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:40:02,050 [INFO] [raw sql] ()
+2023-07-01 08:40:02,051 [INFO] COMMIT
+2023-07-01 08:40:17,253 [INFO] BEGIN (implicit)
+2023-07-01 08:40:17,254 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:40:17,254 [INFO] [raw sql] ()
+2023-07-01 08:40:17,255 [INFO] COMMIT
+2023-07-01 08:40:36,356 [INFO] BEGIN (implicit)
+2023-07-01 08:40:36,357 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:40:36,357 [INFO] [raw sql] ()
+2023-07-01 08:40:36,358 [INFO] COMMIT
+2023-07-01 08:40:47,947 [INFO] BEGIN (implicit)
+2023-07-01 08:40:47,947 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:40:47,948 [INFO] [raw sql] ()
+2023-07-01 08:40:47,948 [INFO] COMMIT
+2023-07-01 08:41:22,720 [INFO] BEGIN (implicit)
+2023-07-01 08:41:22,720 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:41:22,721 [INFO] [raw sql] ()
+2023-07-01 08:41:22,721 [INFO] COMMIT
+2023-07-01 08:41:29,218 [INFO] BEGIN (implicit)
+2023-07-01 08:41:29,218 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:41:29,219 [INFO] [raw sql] ()
+2023-07-01 08:41:29,219 [INFO] COMMIT
+2023-07-01 08:41:37,008 [INFO] BEGIN (implicit)
+2023-07-01 08:41:37,009 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:41:37,009 [INFO] [raw sql] ()
+2023-07-01 08:41:37,010 [INFO] COMMIT
+2023-07-01 08:42:27,500 [INFO] BEGIN (implicit)
+2023-07-01 08:42:27,500 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:42:27,500 [INFO] [raw sql] ()
+2023-07-01 08:42:27,501 [INFO] COMMIT
+2023-07-01 08:43:03,577 [INFO] BEGIN (implicit)
+2023-07-01 08:43:03,578 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:43:03,578 [INFO] [raw sql] ()
+2023-07-01 08:43:03,579 [INFO] COMMIT
+2023-07-01 08:43:24,113 [INFO] BEGIN (implicit)
+2023-07-01 08:43:24,114 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 08:43:24,114 [INFO] [raw sql] ()
+2023-07-01 08:43:24,115 [INFO] COMMIT
+2023-07-01 08:44:14,429 [INFO] BEGIN (implicit)
+2023-07-01 08:44:14,430 [INFO] INSERT INTO ads (title, description, listed_date, seller, price, phone_number) VALUES (?, ?, ?, ?, ?, ?)
+2023-07-01 08:44:14,431 [INFO] [generated in 0.00044s] ('Telefon', 'Iphone 13, black, 128', '2023-07-01 08:44:14.428415', 'Mircea', 3500, '0743182467')
+2023-07-01 08:44:14,432 [INFO] COMMIT
+2023-07-01 08:44:14,435 [INFO] BEGIN (implicit)
+2023-07-01 08:44:14,436 [INFO] SELECT ads.id, ads.title, ads.description, ads.listed_date, ads.seller, ads.price, ads.phone_number 
+FROM ads 
+WHERE ads.id = ?
+2023-07-01 08:44:14,437 [INFO] [generated in 0.00057s] (1,)
+2023-07-01 08:44:14,438 [INFO] Ad created successfully!
+2023-07-01 08:44:14,439 [INFO] ROLLBACK
+2023-07-01 08:46:21,521 [INFO] BEGIN (implicit)
+2023-07-01 08:46:21,521 [INFO] INSERT INTO ads (title, description, listed_date, seller, price, phone_number) VALUES (?, ?, ?, ?, ?, ?)
+2023-07-01 08:46:21,522 [INFO] [cached since 127.1s ago] ('Monitor', 'Monitor LG, 144hz', '2023-07-01 08:46:21.520709', 'Florin', 1200, '0744721549')
+2023-07-01 08:46:21,523 [INFO] COMMIT
+2023-07-01 08:46:21,525 [INFO] BEGIN (implicit)
+2023-07-01 08:46:21,526 [INFO] SELECT ads.id, ads.title, ads.description, ads.listed_date, ads.seller, ads.price, ads.phone_number 
+FROM ads 
+WHERE ads.id = ?
+2023-07-01 08:46:21,526 [INFO] [cached since 127.1s ago] (2,)
+2023-07-01 08:46:21,527 [INFO] Ad created successfully!
+2023-07-01 08:46:21,528 [INFO] ROLLBACK
+2023-07-01 08:46:29,951 [INFO] BEGIN (implicit)
+2023-07-01 08:46:29,951 [INFO] INSERT INTO ads (title, description, listed_date, seller, price, phone_number) VALUES (?, ?, ?, ?, ?, ?)
+2023-07-01 08:46:29,952 [INFO] [cached since 135.5s ago] ('Monitor', 'Monitor LG, 144hz', '2023-07-01 08:46:29.950685', 'Florin', 1200, '0744721549')
+2023-07-01 08:46:29,953 [INFO] COMMIT
+2023-07-01 08:46:29,956 [INFO] BEGIN (implicit)
+2023-07-01 08:46:29,957 [INFO] SELECT ads.id, ads.title, ads.description, ads.listed_date, ads.seller, ads.price, ads.phone_number 
+FROM ads 
+WHERE ads.id = ?
+2023-07-01 08:46:29,957 [INFO] [cached since 135.5s ago] (3,)
+2023-07-01 08:46:29,958 [INFO] Ad created successfully!
+2023-07-01 08:46:29,959 [INFO] ROLLBACK
+2023-07-01 09:09:00,596 [INFO] BEGIN (implicit)
+2023-07-01 09:09:00,596 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:09:00,596 [INFO] [raw sql] ()
+2023-07-01 09:09:00,597 [INFO] COMMIT
+2023-07-01 09:09:39,989 [INFO] Ads listed successfully!
+2023-07-01 09:10:27,634 [INFO] BEGIN (implicit)
+2023-07-01 09:10:27,635 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:10:27,635 [INFO] [raw sql] ()
+2023-07-01 09:10:27,636 [INFO] COMMIT
+2023-07-01 09:10:29,190 [INFO] Ads listed successfully!
+2023-07-01 09:10:29,191 [INFO] BEGIN (implicit)
+2023-07-01 09:10:29,192 [INFO] SELECT ads.id AS ads_id, ads.title AS ads_title, ads.description AS ads_description, ads.listed_date AS ads_listed_date, ads.seller AS ads_seller, ads.price AS ads_price, ads.phone_number AS ads_phone_number 
+FROM ads
+2023-07-01 09:10:29,193 [INFO] [generated in 0.00054s] ()
+2023-07-01 09:10:29,195 [INFO] ROLLBACK
+2023-07-01 09:10:41,692 [INFO] BEGIN (implicit)
+2023-07-01 09:10:41,694 [INFO] SELECT ads.id AS ads_id, ads.title AS ads_title, ads.description AS ads_description, ads.listed_date AS ads_listed_date, ads.seller AS ads_seller, ads.price AS ads_price, ads.phone_number AS ads_phone_number 
+FROM ads 
+WHERE ads.id = ?
+ LIMIT ? OFFSET ?
+2023-07-01 09:10:41,695 [INFO] [generated in 0.00092s] (3, 1, 0)
+2023-07-01 09:10:41,697 [INFO] ROLLBACK
+2023-07-01 09:11:29,578 [INFO] BEGIN (implicit)
+2023-07-01 09:11:29,578 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:11:29,578 [INFO] [raw sql] ()
+2023-07-01 09:11:29,579 [INFO] COMMIT
+2023-07-01 09:15:49,118 [INFO] BEGIN (implicit)
+2023-07-01 09:15:49,119 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:15:49,119 [INFO] [raw sql] ()
+2023-07-01 09:15:49,119 [INFO] COMMIT
+2023-07-01 09:19:17,910 [INFO] BEGIN (implicit)
+2023-07-01 09:19:17,911 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:19:17,911 [INFO] [raw sql] ()
+2023-07-01 09:19:17,912 [INFO] COMMIT
+2023-07-01 09:19:38,445 [INFO] Ads listed successfully!
+2023-07-01 09:19:38,446 [INFO] BEGIN (implicit)
+2023-07-01 09:19:38,448 [INFO] SELECT ads.id AS ads_id, ads.title AS ads_title, ads.description AS ads_description, ads.listed_date AS ads_listed_date, ads.seller AS ads_seller, ads.price AS ads_price, ads.phone_number AS ads_phone_number 
+FROM ads
+2023-07-01 09:19:38,448 [INFO] [generated in 0.00047s] ()
+2023-07-01 09:19:38,450 [INFO] ROLLBACK
+2023-07-01 09:19:48,253 [INFO] BEGIN (implicit)
+2023-07-01 09:19:48,254 [INFO] SELECT ads.id AS ads_id, ads.title AS ads_title, ads.description AS ads_description, ads.listed_date AS ads_listed_date, ads.seller AS ads_seller, ads.price AS ads_price, ads.phone_number AS ads_phone_number 
+FROM ads 
+WHERE ads.id = ?
+2023-07-01 09:19:48,255 [INFO] [generated in 0.00065s] (3,)
+2023-07-01 09:19:48,257 [INFO] DELETE FROM ads WHERE ads.id = ?
+2023-07-01 09:19:48,257 [INFO] [generated in 0.00039s] (3,)
+2023-07-01 09:19:48,258 [INFO] COMMIT
+2023-07-01 09:19:48,260 [INFO] Ad 3 deleted successfully!
+2023-07-01 09:20:11,804 [INFO] BEGIN (implicit)
+2023-07-01 09:20:11,804 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:20:11,804 [INFO] [raw sql] ()
+2023-07-01 09:20:11,805 [INFO] COMMIT
+2023-07-01 09:20:19,489 [INFO] Ads listed successfully!
+2023-07-01 09:20:19,490 [INFO] BEGIN (implicit)
+2023-07-01 09:20:19,492 [INFO] SELECT ads.id AS ads_id, ads.title AS ads_title, ads.description AS ads_description, ads.listed_date AS ads_listed_date, ads.seller AS ads_seller, ads.price AS ads_price, ads.phone_number AS ads_phone_number 
+FROM ads
+2023-07-01 09:20:19,492 [INFO] [generated in 0.00054s] ()
+2023-07-01 09:20:19,494 [INFO] ROLLBACK
+2023-07-01 09:20:49,972 [INFO] BEGIN (implicit)
+2023-07-01 09:20:49,973 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:20:49,973 [INFO] [raw sql] ()
+2023-07-01 09:20:49,974 [INFO] COMMIT
+2023-07-01 09:21:09,584 [INFO] Ads listed successfully!
+2023-07-01 09:21:09,585 [INFO] BEGIN (implicit)
+2023-07-01 09:21:09,587 [INFO] SELECT ads.id AS ads_id, ads.title AS ads_title, ads.description AS ads_description, ads.listed_date AS ads_listed_date, ads.seller AS ads_seller, ads.price AS ads_price, ads.phone_number AS ads_phone_number 
+FROM ads
+2023-07-01 09:21:09,587 [INFO] [generated in 0.00052s] ()
+2023-07-01 09:21:09,589 [INFO] ROLLBACK
+2023-07-01 09:22:02,434 [INFO] BEGIN (implicit)
+2023-07-01 09:22:02,434 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:22:02,435 [INFO] [raw sql] ()
+2023-07-01 09:22:02,435 [INFO] COMMIT
+2023-07-01 09:26:17,912 [INFO] BEGIN (implicit)
+2023-07-01 09:26:17,912 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:26:17,913 [INFO] [raw sql] ()
+2023-07-01 09:26:17,913 [INFO] COMMIT
+2023-07-01 09:26:39,915 [INFO] BEGIN (implicit)
+2023-07-01 09:26:39,915 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:26:39,915 [INFO] [raw sql] ()
+2023-07-01 09:26:39,916 [INFO] COMMIT
+2023-07-01 09:26:52,086 [INFO] BEGIN (implicit)
+2023-07-01 09:26:52,088 [INFO] SELECT ads.id AS ads_id, ads.title AS ads_title, ads.description AS ads_description, ads.listed_date AS ads_listed_date, ads.seller AS ads_seller, ads.price AS ads_price, ads.phone_number AS ads_phone_number 
+FROM ads 
+WHERE ads.id = ?
+2023-07-01 09:26:52,089 [INFO] [generated in 0.00081s] (2,)
+2023-07-01 09:26:52,090 [INFO] UPDATE ads SET title=?, description=?, seller=?, price=?, phone_number=? WHERE ads.id = ?
+2023-07-01 09:26:52,091 [INFO] [generated in 0.00027s] ('string', 'string', 'string', 0, 'string', 2)
+2023-07-01 09:26:52,092 [INFO] COMMIT
+2023-07-01 09:26:52,095 [INFO] BEGIN (implicit)
+2023-07-01 09:26:52,096 [INFO] SELECT ads.id, ads.title, ads.description, ads.listed_date, ads.seller, ads.price, ads.phone_number 
+FROM ads 
+WHERE ads.id = ?
+2023-07-01 09:26:52,097 [INFO] [generated in 0.00054s] (2,)
+2023-07-01 09:26:52,097 [INFO] Ad 2 updated successfully!
+2023-07-01 09:26:52,098 [INFO] ROLLBACK
+2023-07-01 09:27:05,246 [INFO] Ads listed successfully!
+2023-07-01 09:27:05,246 [INFO] BEGIN (implicit)
+2023-07-01 09:27:05,247 [INFO] SELECT ads.id AS ads_id, ads.title AS ads_title, ads.description AS ads_description, ads.listed_date AS ads_listed_date, ads.seller AS ads_seller, ads.price AS ads_price, ads.phone_number AS ads_phone_number 
+FROM ads
+2023-07-01 09:27:05,248 [INFO] [generated in 0.00059s] ()
+2023-07-01 09:27:05,250 [INFO] ROLLBACK
+2023-07-01 09:27:55,823 [INFO] BEGIN (implicit)
+2023-07-01 09:27:55,823 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:27:55,824 [INFO] [raw sql] ()
+2023-07-01 09:27:55,824 [INFO] COMMIT
+2023-07-01 09:29:16,922 [INFO] BEGIN (implicit)
+2023-07-01 09:29:16,922 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:29:16,922 [INFO] [raw sql] ()
+2023-07-01 09:29:16,923 [INFO] COMMIT
+2023-07-01 09:29:22,757 [INFO] Ads listed successfully!
+2023-07-01 09:29:22,758 [INFO] BEGIN (implicit)
+2023-07-01 09:29:22,760 [INFO] SELECT ads.id AS ads_id, ads.title AS ads_title, ads.description AS ads_description, ads.listed_date AS ads_listed_date, ads.seller AS ads_seller, ads.price AS ads_price, ads.phone_number AS ads_phone_number 
+FROM ads
+2023-07-01 09:29:22,761 [INFO] [generated in 0.00068s] ()
+2023-07-01 09:29:22,763 [INFO] ROLLBACK
+2023-07-01 09:30:10,626 [INFO] BEGIN (implicit)
+2023-07-01 09:30:10,626 [INFO] PRAGMA main.table_info("ads")
+2023-07-01 09:30:10,627 [INFO] [raw sql] ()
+2023-07-01 09:30:10,628 [INFO] COMMIT

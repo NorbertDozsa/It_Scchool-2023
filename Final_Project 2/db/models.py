@@ -4,8 +4,8 @@ from sqlalchemy import String, Integer
 from datetime import datetime
 
 
-class Adds(Base):
-    __tablename__ = "adds"
+class Ads(Base):
+    __tablename__ = "ads"
 
     id: Mapped[int] = mapped_column(primary_key=True)
     title: Mapped[str]
@@ -14,3 +14,4 @@ class Adds(Base):
     seller: Mapped[str]
     price: Mapped[int]
     phone_number: Mapped[str]
+

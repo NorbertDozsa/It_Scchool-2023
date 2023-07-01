@@ -3,35 +3,46 @@ from db import models
 import schemas
 from datetime import datetime
 
-def get_add(db: Session, add_id: int):
-    return db.query(models.Adds).filter(models.Adds.id == add_id).first()
+def get_ad(db: Session, ad_id: int):
+    """Returns the advertising with the given id"""
+    return db.query(models.Ads).filter(models.Ads.id == ad_id).first()
 
-def get_adds(db: Session):
-    return db.query(models.Adds).all()
+def get_ads(db: Session):
+    """Returns the full list of advertising"""
+    return db.query(models.Ads).all()
 
-def create_add(db: Session, add: schemas.CreateAdd):
-    db_add = models.Adds(
-        title=add.title,
-        description=add.description,
+def create_ad(db: Session, ad: schemas.CreateAd):
+    """Creates a new advertising"""
+    db_ad = models.Ads(
+        title=ad.title,
+        description=ad.description,
         listed_date=datetime.now(),
-        seller=add.seller,
-        price=add.price,
-        phone_number=add.phone_number
+        seller=ad.seller,
+        price=ad.price,
+        phone_number=ad.phone_number
     )
-    db.add(db_add)
+    db.add(db_ad)
     db.commit()
-    db.refresh(db_add)
-    return db_add
+    db.refresh(db_ad)
+    return db_ad
 
-def delete_add(db: Session, add: schemas.DeleteAdd):
-    db_add = models.Adds(
-        title=add.title,
-        description=add.description,
-        seller=add.seller,
-        price=add.price,
-        phone_number=add.phone_number
-    )
-    db.delete(db_add)
-    db.commit()
-    db.refresh(db_add)
-    return db_add
+def delete_ad(db: Session, ad_id: int) -> bool:
+    """Deletes the advertising with the given id"""
+    ad = db.query(models.Ads).get(ad_id)
+    if ad:
+        db.delete(ad)
+        db.commit()
+        return True
+    return False
+
+def update_ad(db: Session, ad_id: int, ad_data: schemas.CreateAd):
+    """Updates the advertising's data"""
+    ad = db.query(models.Ads).get(ad_id)
+    if ad:
+        for field, value in ad_data.dict().items():
+            setattr(ad, field, value)
+        db.add(ad)
+        db.commit()
+        db.refresh(ad)
+        return ad
+    return None
